@@ -147,15 +147,45 @@ splash需要docker应用容器
     
 在安装完之后，你需要让你的android手机与你的电脑在同一网域，点击手机wifi修改内容，将代理改为手动，让**服务器主机名**和**服务器端口**分别输入你的电脑ip和8080端口    
 运行mitmweb    
+   
+> pip install aiohttp    
+  
+> pip install beatifulsoup4    
 
 
 
+### Chapter 12    
+> pip install pyocr    
+  
+> pip install pillow    
 
-### Chapter 12
+> pip install pytesser3    
+
+> pacman tesseract tesseract-data-chi_sim    
+
+
+
 ### Chapter 13
 ### Chapter 14
 ### Chapter 15
 ### Chapter 16
+可以看菜鸟教程里的mongodb    
+yay -S mongodb-4.0.bin    
+查看/var/lib/mongodb/ 和/var/log/mongodb/ 无则创建，但他安装后有自动建的    
+接着更改文件的用户访问权限    
+sudo chown 你的用户名 目标文件    
+然后运行    
+mongod --dbpath /var/lib/mongodb --logpath /var/log/mongodb/mongod.log --fork   
+cat /var/log/mongodb/mongod.log    
+可以看到成功    
+安装可视化工具    
+robomongo和mongobooster    
+pip install pymongo    
+
+
+
+
+
 ### Chapter 17
 ### Chapter 18
 ### Chapter 19
